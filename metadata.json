@@ -1,0 +1,6 @@
+{
+  "name": "Prompt Studio Banner",
+  "description": "Konfigurator prompt desain profesional untuk banner, poster, dan artwork kaos dengan struktur JSON presisi berbasis AI multimodal.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
