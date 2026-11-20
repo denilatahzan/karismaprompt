@@ -4,7 +4,7 @@ import type {
   GeneratedDesignPrompt,
   Orientation,
   ParsedDimensions,
-} from '../types/design';
+} from '../types/design.ts';
 
 const ISO_PAPER_CM: Record<string, [number, number]> = {
   A0: [84.1, 118.9],

@@ -3,12 +3,12 @@ import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { GoogleGenAI, ThinkingLevel, Type, type Part } from '@google/genai';
-import type { DesignFormData, GeneratedDesignPrompt } from './src/types/design';
+import type { DesignFormData, GeneratedDesignPrompt } from './src/types/design.ts';
 import {
   buildServerPromptPayload,
   extractCleanJson,
   validateDesignForm,
-} from './src/utils/promptBuilder';
+} from './src/utils/promptBuilder.ts';
 import {
   extractBearerToken,
   parseConfiguredUsers,
@@ -16,7 +16,7 @@ import {
   signSessionToken,
   verifySessionToken,
   verifyUserCredentials,
-} from './src/utils/auth';
+} from './src/utils/auth.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
